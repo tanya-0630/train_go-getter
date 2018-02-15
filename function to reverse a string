@@ -1,0 +1,10 @@
+# creating a function to reverse a string
+
+def reverse_a_string(x):
+
+  x=input('enter a string: ')
+  l=list(x)
+  l1=l[::-1]    
+  print('the reversed string is:',''.join(l1))   
+    
+reverse_a_string(x)
